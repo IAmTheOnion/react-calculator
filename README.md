@@ -1,74 +1,20 @@
-<<<<<<< HEAD
-# react-calculator
-=======
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 6aa7000 (Initialize project using Create React App)
+<h6 class="text-uppercase mt-1">Answer | Phind V9 Model</h6><div class="fs-5"><h1>Aplikacja Kalkulatora</h1></div><div class="fs-5"><p class="text-black mb-2 text-break">Aplikacja Kalkulator to prosty kalkulator wykonany za pomocą React. Pozwala na wykonywanie podstawowych operacji matematycznych takich jak dodawanie, odejmowanie, mnożenie i dzielenie.</p></div><div class="fs-5"><h2>Funkcje</h2></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
+<li>Wykonywanie podstawowych operacji matematycznych: dodawanie, odejmowanie, mnożenie i dzielenie.</li>
+<li>Obliczanie wyniku po wprowadzeniu operacji i liczb.</li>
+<li>Czyszczenie ekranu.</li>
+</ul></div><div class="fs-5"><h2>Instrukcje do rozpoczęcia</h2></div><div class="fs-5"><p class="text-black mb-2 text-break">Te instrukcje pomogą Ci uruchomić projekt na swoim komputerze do celów deweloperskich i testowych.</p></div><div class="fs-5"><h3>Wymagania wstępne</h3></div><div class="fs-5"><p class="text-black mb-2 text-break">Przed rozpoczęciem upewnij się, że na Twoim komputerze zainstalowany jest Node.js i npm. Ponadto upewnij się, że masz podstawową wiedzę o React i jego koncepcjach.</p></div><div class="fs-5"><h3>Instalacja</h3></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
+<li>Sklonuj repozytorium na swój komputer:</li>
+</ul></div><div class="fs-5"></div><div class="fs-5"><pre><div class="mt-3 p-1" style="background-color: rgb(40, 42, 54); border-radius: 12px;"><div style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="token" style="color: rgb(241, 250, 140);">git</span><span> clone https://github.com/IAmTheOnion/react-calculator.git
+</span></code></div><div class="flex"><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-copy" style="color: white;"></i></button><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-play" style="color: white;"></i></button><a class="fw-bold fs-6 text-white mt-n1" style="word-break: break-word; display: inline-block; position: relative; bottom: 10px; right: 0px;" target="_blank" href="" rel="noreferrer"><h6 class="text-always-white"></h6></a></div></div></pre></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
+<li>Przejdź do sklonowanego katalogu:</li>
+</ul></div><div class="fs-5"></div><div class="fs-5"><pre><div class="mt-3 p-1" style="background-color: rgb(40, 42, 54); border-radius: 12px;"><div style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="token" style="color: rgb(241, 250, 140);">cd</span><span> react-calculator
+</span></code></div><div class="flex"><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-copy" style="color: white;"></i></button><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-play" style="color: white;"></i></button><a class="fw-bold fs-6 text-white mt-n1" style="word-break: break-word; display: inline-block; position: relative; bottom: 10px; right: 0px;" target="_blank" href="" rel="noreferrer"><h6 class="text-always-white"></h6></a></div></div></pre></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
+<li>Zainstaluj wymagane zależności:</li>
+</ul></div><div class="fs-5"></div><div class="fs-5"><pre><div class="mt-3 p-1" style="background-color: rgb(40, 42, 54); border-radius: 12px;"><div style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="token" style="color: rgb(241, 250, 140);">npm</span><span> </span><span class="token" style="color: rgb(241, 250, 140);">install</span><span>
+</span></code></div><div class="flex"><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-copy" style="color: white;"></i></button><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-play" style="color: white;"></i></button><a class="fw-bold fs-6 text-white mt-n1" style="word-break: break-word; display: inline-block; position: relative; bottom: 10px; right: 0px;" target="_blank" href="" rel="noreferrer"><h6 class="text-always-white"></h6></a></div></div></pre></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
+<li>Uruchom aplikację:</li>
+</ul></div><div class="fs-5"></div><div class="fs-5"><pre><div class="mt-3 p-1" style="background-color: rgb(40, 42, 54); border-radius: 12px;"><div style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="token" style="color: rgb(241, 250, 140);">npm</span><span> start
+</span></code></div><div class="flex"><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-copy" style="color: white;"></i></button><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-play" style="color: white;"></i></button><a class="fw-bold fs-6 text-white mt-n1" style="word-break: break-word; display: inline-block; position: relative; bottom: 10px; right: 0px;" target="_blank" href="" rel="noreferrer"><h6 class="text-always-white"></h6></a></div></div></pre></div><div class="fs-5"><p class="text-black mb-2 text-break">Teraz aplikacja powinna być uruchomiona na Twoim lokalnym serwerze. Możesz ją otworzyć, przechodząc do <code style="background-color: white; padding: 3px; border-radius: 8px; color: black; cursor: pointer;">http://localhost:3000</code> w swojej przeglądarce internetowej.</p></div><div class="fs-5"><h2>Budowane za pomocą</h2></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
+<li><a href="https://reactjs.org/" node="[object Object]">React</a>: Biblioteka JavaScript do budowania interfejsów użytkownika.</li>
+<li><a href="https://reactjs.org/docs/react-dom.html" node="[object Object]">ReactDOM</a>: Dostarcza specyficzne dla DOM metody, które mogą być używane na najwyższym poziomie aplikacji internetowej, aby umożliwić efektywne zarządzanie aktualizacjami DOM.</li>
+</ul></div><div class="fs-5"><h2>Licencja</h2></div><div class="fs-5"><p class="text-black mb-2 text-break">Ten projekt jest objęty licencją MIT - zobacz plik <a href="LICENSE.md" node="[object Object]">LICENSE.md</a> dla szczegółów.</p></div>
