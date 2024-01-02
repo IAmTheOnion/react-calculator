@@ -1,20 +1,65 @@
-<h6 class="text-uppercase mt-1">Answer | Phind V9 Model</h6><div class="fs-5"><h1>Aplikacja Kalkulatora</h1></div><div class="fs-5"><p class="text-black mb-2 text-break">Aplikacja Kalkulator to prosty kalkulator wykonany za pomocą React. Pozwala na wykonywanie podstawowych operacji matematycznych takich jak dodawanie, odejmowanie, mnożenie i dzielenie.</p></div><div class="fs-5"><h2>Funkcje</h2></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
-<li>Wykonywanie podstawowych operacji matematycznych: dodawanie, odejmowanie, mnożenie i dzielenie.</li>
-<li>Obliczanie wyniku po wprowadzeniu operacji i liczb.</li>
-<li>Czyszczenie ekranu.</li>
-</ul></div><div class="fs-5"><h2>Instrukcje do rozpoczęcia</h2></div><div class="fs-5"><p class="text-black mb-2 text-break">Te instrukcje pomogą Ci uruchomić projekt na swoim komputerze do celów deweloperskich i testowych.</p></div><div class="fs-5"><h3>Wymagania wstępne</h3></div><div class="fs-5"><p class="text-black mb-2 text-break">Przed rozpoczęciem upewnij się, że na Twoim komputerze zainstalowany jest Node.js i npm. Ponadto upewnij się, że masz podstawową wiedzę o React i jego koncepcjach.</p></div><div class="fs-5"><h3>Instalacja</h3></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
-<li>Sklonuj repozytorium na swój komputer:</li>
-</ul></div><div class="fs-5"></div><div class="fs-5"><pre><div class="mt-3 p-1" style="background-color: rgb(40, 42, 54); border-radius: 12px;"><div style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="token" style="color: rgb(241, 250, 140);">git</span><span> clone https://github.com/IAmTheOnion/react-calculator.git
-</span></code></div><div class="flex"><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-copy" style="color: white;"></i></button><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-play" style="color: white;"></i></button><a class="fw-bold fs-6 text-white mt-n1" style="word-break: break-word; display: inline-block; position: relative; bottom: 10px; right: 0px;" target="_blank" href="" rel="noreferrer"><h6 class="text-always-white"></h6></a></div></div></pre></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
-<li>Przejdź do sklonowanego katalogu:</li>
-</ul></div><div class="fs-5"></div><div class="fs-5"><pre><div class="mt-3 p-1" style="background-color: rgb(40, 42, 54); border-radius: 12px;"><div style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="token" style="color: rgb(241, 250, 140);">cd</span><span> react-calculator
-</span></code></div><div class="flex"><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-copy" style="color: white;"></i></button><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-play" style="color: white;"></i></button><a class="fw-bold fs-6 text-white mt-n1" style="word-break: break-word; display: inline-block; position: relative; bottom: 10px; right: 0px;" target="_blank" href="" rel="noreferrer"><h6 class="text-always-white"></h6></a></div></div></pre></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
-<li>Zainstaluj wymagane zależności:</li>
-</ul></div><div class="fs-5"></div><div class="fs-5"><pre><div class="mt-3 p-1" style="background-color: rgb(40, 42, 54); border-radius: 12px;"><div style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="token" style="color: rgb(241, 250, 140);">npm</span><span> </span><span class="token" style="color: rgb(241, 250, 140);">install</span><span>
-</span></code></div><div class="flex"><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-copy" style="color: white;"></i></button><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-play" style="color: white;"></i></button><a class="fw-bold fs-6 text-white mt-n1" style="word-break: break-word; display: inline-block; position: relative; bottom: 10px; right: 0px;" target="_blank" href="" rel="noreferrer"><h6 class="text-always-white"></h6></a></div></div></pre></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
-<li>Uruchom aplikację:</li>
-</ul></div><div class="fs-5"></div><div class="fs-5"><pre><div class="mt-3 p-1" style="background-color: rgb(40, 42, 54); border-radius: 12px;"><div style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="color: rgb(248, 248, 242); background: none; text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"><span class="token" style="color: rgb(241, 250, 140);">npm</span><span> start
-</span></code></div><div class="flex"><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-copy" style="color: white;"></i></button><button class="btn btn-circle mt-n5" type="submit"><i class="fe fe-play" style="color: white;"></i></button><a class="fw-bold fs-6 text-white mt-n1" style="word-break: break-word; display: inline-block; position: relative; bottom: 10px; right: 0px;" target="_blank" href="" rel="noreferrer"><h6 class="text-always-white"></h6></a></div></div></pre></div><div class="fs-5"><p class="text-black mb-2 text-break">Teraz aplikacja powinna być uruchomiona na Twoim lokalnym serwerze. Możesz ją otworzyć, przechodząc do <code style="background-color: white; padding: 3px; border-radius: 8px; color: black; cursor: pointer;">http://localhost:3000</code> w swojej przeglądarce internetowej.</p></div><div class="fs-5"><h2>Budowane za pomocą</h2></div><div class="fs-5"><ul class="mb-3" ordered="false" depth="0">
-<li><a href="https://reactjs.org/" node="[object Object]">React</a>: Biblioteka JavaScript do budowania interfejsów użytkownika.</li>
-<li><a href="https://reactjs.org/docs/react-dom.html" node="[object Object]">ReactDOM</a>: Dostarcza specyficzne dla DOM metody, które mogą być używane na najwyższym poziomie aplikacji internetowej, aby umożliwić efektywne zarządzanie aktualizacjami DOM.</li>
-</ul></div><div class="fs-5"><h2>Licencja</h2></div><div class="fs-5"><p class="text-black mb-2 text-break">Ten projekt jest objęty licencją MIT - zobacz plik <a href="LICENSE.md" node="[object Object]">LICENSE.md</a> dla szczegółów.</p></div>
+# React Calculator
+
+This is a simple calculator application built with React. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+## Features
+
+- Responsive design with a user-friendly interface.
+- Support for numeric input, decimal point, and basic arithmetic operations.
+- Dynamic display of the input and calculation results.
+
+## Usage
+
+1. **Numeric Input:**
+   - Click on the numeric buttons (0-9) to input numbers.
+
+2. **Decimal Point:**
+   - Click on the "." button to input a decimal point for floating-point numbers.
+
+3. **Arithmetic Operations:**
+   - Click on the operation buttons (+, -, *, /) to perform arithmetic operations.
+   - The calculator supports chaining multiple operations.
+
+4. **Equals (=) Button:**
+   - Click on the "=" button to evaluate the expression and display the result.
+
+5. **Clear (AC) Button:**
+   - Click on the "AC" button to clear the input and reset the calculator.
+
+## Guidelines
+
+- Ensure the correctness of the mathematical expressions entered.
+- Division by zero is not handled explicitly, and it may result in unexpected behavior.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/IAmTheOnion/react-calculator.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the application:
+
+   ```bash
+   npm start
+   ```
+
+   The app will be accessible at `http://localhost:3000` in your web browser.
+
+## Technologies Used
+
+- React
+- Bootstrap (for styling)
+
+## Acknowledgments
+
+This calculator app was created as a simple project to practice React development. Feel free to contribute or use it as a reference for your projects. If you encounter any issues or have suggestions for improvements, please submit an issue or a pull request.
+
+Happy calculating! 🧮
